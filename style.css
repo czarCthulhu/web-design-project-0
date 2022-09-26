@@ -1,0 +1,85 @@
+
+
+body {
+    background-color: rgb(33, 33, 33);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+a, .search_bar {
+    color: white;
+    text-decoration-line: none;
+    font-weight: lighter;
+}
+
+a {
+    color: white;
+    position: absolute;
+    top: 10px;
+    border-radius: 5px;
+    min-width: 80px;
+    text-align: center;
+ }
+
+.right_align {
+    right: 10px;
+}
+
+#image_search {
+    right: 100px;
+}
+
+.da_buttonz{
+    margin-top: 5px;
+    min-height: 35px;
+    min-width: 150px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.da_buttonz:hover{
+    background-color: rgb(70, 70, 70);
+    border: 0px, solid white;
+}
+
+.center_align {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.search_bar {
+    background-color: transparent;
+    min-width: 30%;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid white;
+    
+}
+
+.adv_button{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(17, 116, 146);
+    border: 0px solid black;
+    border-radius: 2px;
+    min-width: 140px;
+    min-height: 30px;
+    margin-left: 300px;
+}
+
+.advanced_field {
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+    min-width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 4px;
+}
